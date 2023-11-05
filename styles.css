@@ -1,0 +1,42 @@
+#game-container {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#room {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 300px;
+    margin: 0 auto;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid #000;
+}
+
+/* Estilo de la puerta correcta */
+.correct-door {
+    background-color: #3498db; /* Azul */
+    color: #fff; /* Texto blanco */
+}
+
+/* Estilo de las puertas incorrectas */
+.incorrect-door {
+    background-color: #e74c3c; /* Rojo */
+    color: #fff; /* Texto blanco */
+}
+
+/* Estilo del jugador */
+.player {
+    background-color: #2ecc71; /* Verde */
+    color: #fff; /* Texto blanco */
+}
